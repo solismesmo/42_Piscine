@@ -6,7 +6,7 @@
 /*   By: livieira <livieira@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/11 03:38:42 by livieira          #+#    #+#             */
-/*   Updated: 2023/06/11 03:43:47 by livieira         ###   ########.fr       */
+/*   Updated: 2023/06/11 22:35:45 by livieira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_str_is_printable(char *str)
 	index = 0;
 	while (str[index] != '\0')
 	{
-		if (str[index] <= ' ' || str[index] >= '~')
+		if (str[index] < ' ' || str[index] > '~')
 			return (0);
 		index++;
 	}

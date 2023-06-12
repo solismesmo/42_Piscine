@@ -6,7 +6,7 @@
 /*   By: livieira <livieira@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 22:21:35 by livieira          #+#    #+#             */
-/*   Updated: 2023/06/11 00:02:46 by livieira         ###   ########.fr       */
+/*   Updated: 2023/06/11 22:37:37 by livieira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	unsigned int	index;
 
 	index = 0;
-	while (src[index] != '\0')
+	while (src[index] != '\0' && index < n)
 	{
 		dest[index] = src[index];
 		index++;
@@ -28,7 +28,8 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	return (dest);
 }
 
-/* #include <stdio.h>
+/* 
+#include <stdio.h>
 
 int	main(void)
 {
@@ -38,4 +39,5 @@ int	main(void)
 	
 	ft_strncpy(dest, src, n);
 	printf("dest = %s", dest);
-} */
+}
+ */

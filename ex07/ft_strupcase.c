@@ -6,7 +6,7 @@
 /*   By: livieira <livieira@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/11 03:44:22 by livieira          #+#    #+#             */
-/*   Updated: 2023/06/11 04:53:05 by livieira         ###   ########.fr       */
+/*   Updated: 2023/06/11 22:39:16 by livieira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char	*ft_strupcase(char *str)
 	return (str);
 }
 
-#include <stdio.h>
+/* #include <stdio.h>
 
 int	main(void)
 {
@@ -33,4 +33,4 @@ int	main(void)
 
 	printf("\n",ft_strupcase(test1));
 	printf("\n",ft_strupcase(test2));
-}
+} */

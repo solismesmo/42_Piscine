@@ -1,4 +1,3 @@
-
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
@@ -6,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: livieira <livieira@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/11 21:41:15 by livieira          #+#    #+#             */
-/*   Updated: 2023/06/11 21:48:30 by livieira         ###   ########.fr       */
+/*   Created: 2023/06/11 22:38:02 by livieira          #+#    #+#             */
+/*   Updated: 2023/06/11 22:58:19 by livieira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,11 +40,13 @@ int		main(void)
 
 	n = 5;
 
-	printf("antes da mudança\n\tsrc: %s\n\tarquivo dest:%s\n\ttamanho do buffer de dest: %d\n", src, dest, n);
+	printf("antes da mudança\n\tsrc: %s\n\tarquivo dest:
+	%s\n\ttamanho do buffer de dest: %d\n", src, dest, n);
 
     n = ft_strlcpy(dest, src, n);
 
-	printf("após a mudança\n\tarquivo dest:%s\n\ttamanho do buffer leitura do src total: %d", dest, n);
+	printf("após a mudança\n\tarquivo dest:
+	%s\n\ttamanho do buffer leitura do src total: %d", dest, n);
 	return (0);
 }
  */
