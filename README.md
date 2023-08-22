@@ -1,5 +1,5 @@
 # Piscine
-The "Piscine" is a distinctive stage of the selection process at 42 São Paulo, following the model of the 42 school, a global network of coding schools. The name "Piscina" is a reference to the intensity and rigor of this process, where candidates are subjected to a series of challenges and tests that last for several consecutive days. 
+The "Piscine" is a distinctive stage of the selection process at 42 São Paulo, following the model of the 42 school, a global network of coding schools. The name "Piscine" is a reference to the intensity and rigor of this process, where candidates are subjected to a series of challenges and tests that last for several consecutive days. 
 
 The main phase of the selection process is the "Piscine." This stage is an intensive programming bootcamp that lasts for several weeks. During the Piscine, candidates are subjected to a series of practical challenges that test their programming skills, problem-solving abilities, and teamwork. The idea is to identify candidates with potential, regardless of their academic background or prior programming experience.
 
